@@ -1,0 +1,25 @@
+{
+  "name": "slide",
+  "version": "1.0.0",
+  "description": "create slideshow with paging ",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FawzyZayed/SlideNav.git"
+  },
+  "author": "fawzy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FawzyZayed/SlideNav/issues"
+  },
+  "homepage": "https://github.com/FawzyZayed/SlideNav#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2"
+  }
+}

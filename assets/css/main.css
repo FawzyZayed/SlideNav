@@ -1,0 +1,94 @@
+/*
+    Theme Name: SassDemo
+    Theme URI: https://github.com/FawzyZayed/SassDemo
+    Author: Fawzy
+    Author URI:Fawzy.info
+    Description: Custom Sass for New Website.
+    Version: 1.0.0
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Tags:New , Custom , Responsive , Bootstarp , Gulp , SCSS , HTML5 , IconFont , Quality , Typography , Javascript , CSS , GoogleFont
+    Text Domain: Fawzy
+
+    This theme, is licensed under the GPL.
+    Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@import url("http://fonts.googleapis.com/css?family=Open+Sans|Exo:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px; }
+
+body {
+  background: #222;
+  margin: 0;
+  padding: 0;
+  font: normal 10px Verdana, Arial, Helvetica, sans-serif; }
+
+* {
+  outline: none; }
+
+img {
+  border: 0; }
+
+.SlideNav {
+  width: 640px;
+  padding: 0;
+  margin: 0 auto; }
+
+.folio_block {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -140px 0 0 -320px; }
+
+/*--Main Container--*/
+.main_view {
+  float: left;
+  position: relative; }
+
+/*--Window/Masking Styles--*/
+.window {
+  height: 286px;
+  width: 640px;
+  overflow: hidden;
+  /*--Hides anything outside of the set width/height--*/
+  position: relative; }
+
+.image_reel {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.image_reel img {
+  float: left; }
+
+/*--Paging Styles--*/
+.paging {
+  position: absolute;
+  bottom: 40px;
+  right: -7px;
+  width: 178px;
+  height: 47px;
+  z-index: 100;
+  /*--Assures the paging stays on the top layer--*/
+  text-align: center;
+  line-height: 40px;
+  background: url(../img/paging_bg2.png) no-repeat;
+  display: none;
+  /*--Hidden by default, will be later shown with jQuery--*/ }
+
+.paging a {
+  padding: 5px;
+  text-decoration: none;
+  color: #fff; }
+
+.paging a.active {
+  font-weight: bold;
+  background: #920000;
+  border: 1px solid #610000;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -webkit-border-radius: 3px; }
+
+.paging a:hover {
+  font-weight: bold; }
